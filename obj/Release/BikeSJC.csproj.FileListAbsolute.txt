@@ -1,0 +1,165 @@
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\ApplicationInsights.config
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\csc.exe
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\csc.exe.config
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\csc.rsp
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\csi.exe
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\csi.rsp
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\System.AppContext.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\System.Collections.Immutable.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\System.IO.FileSystem.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\vbc.exe
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\vbc.exe.config
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\vbc.rsp
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\VBCSCompiler.exe
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\roslyn\VBCSCompiler.exe.config
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\BikeSJC.dll.config
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\BikeSJC.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\BikeSJC.pdb
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\Antlr3.Runtime.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\Microsoft.AI.Web.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\Microsoft.AI.WindowsServer.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\Microsoft.ApplicationInsights.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\Microsoft.Web.Infrastructure.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\Newtonsoft.Json.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\System.Net.Http.Formatting.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\System.Web.Helpers.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\System.Web.Http.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\System.Web.Http.WebHost.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\System.Web.Mvc.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\System.Web.Optimization.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\System.Web.Razor.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\System.Web.WebPages.Deployment.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\System.Web.WebPages.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\System.Web.WebPages.Razor.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\WebGrease.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\Newtonsoft.Json.xml
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\System.Net.Http.Formatting.xml
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\System.Web.Helpers.xml
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\System.Web.Http.xml
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\System.Web.Http.WebHost.xml
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\System.Web.Mvc.xml
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\System.Web.Optimization.xml
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\System.Web.Razor.xml
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\System.Web.WebPages.xml
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\System.Web.WebPages.Deployment.xml
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\System.Web.WebPages.Razor.xml
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\Antlr3.Runtime.pdb
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\Microsoft.ApplicationInsights.xml
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\Microsoft.AI.WindowsServer.xml
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\Microsoft.AI.Web.xml
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\obj\Release\BikeSJC.dll
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\obj\Release\BikeSJC.pdb
+c:\users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\obj\Release\BikeSJC.csprojResolveAssemblyReference.cache
+C:\Users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\EntityFramework.dll
+C:\Users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\EntityFramework.xml
+C:\Users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\MySql.Data.dll
+C:\Users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\EntityFramework.SqlServer.dll
+C:\Users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\MySql.Data.Entity.EF5.dll
+C:\Users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\MySql.Data.Entity.EF6.dll
+C:\Users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\MySql.Fabric.Plugin.dll
+C:\Users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\EntityFramework.SqlServer.xml
+C:\Users\italo\documents\visual studio 2017\Projects\BikeSJC\BikeSJC\bin\MySql.Data.Entity.EF5.xml
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\ApplicationInsights.config
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\csc.exe
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\csc.exe.config
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\csc.rsp
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\csi.exe
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\csi.rsp
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\System.AppContext.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\vbc.exe
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\vbc.exe.config
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\vbc.rsp
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\VBCSCompiler.exe
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\BikeSJC.dll.config
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\BikeSJC.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\BikeSJC.pdb
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Antlr3.Runtime.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\EntityFramework.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\EntityFramework.SqlServer.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Microsoft.AI.Web.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\MySql.Data.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\MySql.Data.Entity.EF5.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\MySql.Data.Entity.EF6.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\MySql.Fabric.Plugin.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Newtonsoft.Json.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\System.Net.Http.Formatting.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\System.Web.Helpers.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\System.Web.Http.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\System.Web.Http.WebHost.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\System.Web.Mvc.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\System.Web.Optimization.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\System.Web.Razor.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\System.Web.WebPages.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\System.Web.WebPages.Razor.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\WebGrease.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\EntityFramework.xml
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\EntityFramework.SqlServer.xml
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\MySql.Data.Entity.EF5.xml
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Newtonsoft.Json.xml
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\System.Net.Http.Formatting.xml
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\System.Web.Helpers.xml
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\System.Web.Http.xml
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\System.Web.Http.WebHost.xml
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\System.Web.Mvc.xml
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\System.Web.Optimization.xml
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\System.Web.Razor.xml
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\System.Web.WebPages.xml
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\System.Web.WebPages.Razor.xml
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Antlr3.Runtime.pdb
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Microsoft.AI.Web.xml
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\obj\Release\BikeSJC.csprojResolveAssemblyReference.cache
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\obj\Release\BikeSJC.csproj.CoreCompileInputs.cache
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\obj\Release\BikeSJC.dll
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\obj\Release\BikeSJC.pdb

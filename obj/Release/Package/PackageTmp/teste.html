@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            var dataJSON = {
+                nome: "italo2",
+                cpf: "43540324810",
+                email: $("#txtemail").val(),
+                telefone: $("#txttelefone").val(),
+                login: $("#txtCadLogin").val(),
+                senha: $("#txtCadSenha").val()
+            };
+               $.ajax({
+                    type: 'POST',
+                    url: 'http://localhost:56568/cadastro/usuario',
+                    data: JSON.stringify(dataJSON),
+                    contentType: 'application/json; charset=utf-8',
+                    dataType: 'json'
+                });
+    
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
