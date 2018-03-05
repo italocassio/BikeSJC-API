@@ -1,0 +1,2 @@
+alterar campo para case sensetive
+	ALTER TABLE table_name MODIFY column_name column_datatype COLLATE utf8_bin;
