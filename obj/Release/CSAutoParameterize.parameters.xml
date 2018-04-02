@@ -6,4 +6,7 @@
   <parameter name="constr-Web.config Connection String" description="constr Connection String used in web.config by the application to access the database." defaultValue="Server=bikesjc.mysql.dbaas.com.br;Database=bikesjc;Uid=bikesjc;Pwd=vaidebike;" tags="SqlConnectionString">
     <parameterEntry kind="XmlFile" scope="C:\\Users\\italo\\Documents\\GitHub\\BikeSJC-API\\BikeSJC\\BikeSJC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='constr']/@connectionString" />
   </parameter>
+  <parameter name="local-Web.config Connection String" description="local Connection String used in web.config by the application to access the database." defaultValue="Server=127.0.0.1;Database=bikesjc;Uid=root;Pwd=;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\italo\\Documents\\GitHub\\BikeSJC-API\\BikeSJC\\BikeSJC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='local']/@connectionString" />
+  </parameter>
 </parameters>

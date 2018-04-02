@@ -159,7 +159,7 @@ C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Microsoft.AI.Dep
 C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\bin\Microsoft.AI.Web.xml
-C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\obj\Release\BikeSJC.csprojResolveAssemblyReference.cache
 C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\obj\Release\BikeSJC.csproj.CoreCompileInputs.cache
 C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\obj\Release\BikeSJC.dll
 C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\obj\Release\BikeSJC.pdb
+C:\Users\italo\Documents\GitHub\BikeSJC-API\BikeSJC\BikeSJC\obj\Release\BikeSJC.csprojResolveAssemblyReference.cache

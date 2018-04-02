@@ -21,4 +21,10 @@ namespace BikeSJC.Models
         public Boolean est_aceitando_bike { get; set; }
         public DateTime est_ultimo_relatorio { get; set; }
     }
+
+    public class EstacaoInfo
+    {
+        public int bicicletas { get; set; }
+        public int vagas { get; set; }
+    }
 }

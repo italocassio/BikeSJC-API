@@ -210,15 +210,19 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>connect.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\BicicletaController.cs" />
     <Compile Include="Controllers\EstacaoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PlanoController.cs" />
     <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Database\Connect.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Bicicleta.cs" />
     <Compile Include="Models\Estacao.cs" />
+    <Compile Include="Models\Plano.cs" />
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -235,6 +239,8 @@
     <Content Include="BikeSJC\img\default.svg" />
     <Content Include="BikeSJC\img\estation.png" />
     <Content Include="BikeSJC\img\logo.png" />
+    <Content Include="BikeSJC\img\pass-anual.png" />
+    <Content Include="BikeSJC\img\pass-mensal.jpg" />
     <Content Include="BikeSJC\img\pass1.jpg" />
     <Content Include="BikeSJC\img\placeholder.png" />
     <Content Include="BikeSJC\img\placeholder3.png" />

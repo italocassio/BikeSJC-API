@@ -8,6 +8,8 @@ using BikeSJC.Models;
 using BikeSJC.Database;
 using MySql.Data.MySqlClient;
 using System.Text;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace BikeSJC.Controllers
 {
@@ -32,6 +34,12 @@ namespace BikeSJC.Controllers
                     est.est_nome = dr["est_nome"].ToString();
                     est.est_latitude = Convert.ToDecimal(dr["est_latitude"]);
                     est.est_longitude = Convert.ToDecimal(dr["est_longitude"]);
+
+                    string info = estacaoInfo(est.est_id);
+                    JToken token = JObject.Parse(info);
+                    est.est_num_bikes_atual = (int)token.SelectToken("bicicletas");
+                    est.est_travas_disponiveis = (int)token.SelectToken("vagas");
+                    
                     //est.est_capacidade = Convert.ToInt32(dr["est_capacidade"]);
                     listaEstacoes.Add(est);
                 }
@@ -40,35 +48,40 @@ namespace BikeSJC.Controllers
             return listaEstacoes;
         }
 
-        // GET: api/Estacao/5
-        public string Get(int id)
+        [Route("Estacao/info")]
+        [HttpGet]
+        public string estacaoInfo(int id)
         {
-            //select est_id, est_nome, est_latitude, est_longitude,
-            //(select count(*) from travas where estacoes_est_id = 1 and trava_status = 'D') as 'trava disponiveis',
-            //(select count(*) from bicicletas where est_id = 1) as 'bikes disponiveis'
-            //from estacoes e
-            //join travas t on t.estacoes_est_id = e.est_id
-            //where e.est_id = 1
-            //group by 'est_id'
+            StringBuilder query = new StringBuilder();
+            EstacaoInfo estacao = new EstacaoInfo();
 
+            try
+            {
+                query.AppendLine("select ");
+                query.AppendLine("(select count(*) from travas where estacoes_est_id=@id and trava_status = 'D' and trava_funcionando='1') as 'vagas_disponiveis', ");
+                query.AppendLine("	(select count(*) from travas where estacoes_est_id=@id and trava_status = 'I' and trava_funcionando='1') as 'bikes_disponiveis' ");
+                query.AppendLine("from estacoes ");
+                query.AppendLine("where est_id=@id");
 
+                List<MySqlParameter> param = new List<MySqlParameter>();
+                param.Add(new MySqlParameter("@id", id));
 
-            return "value";
+                using (MySqlDataReader dr = sql.RetornaQueryParam(query.ToString(), param))
+                {
+                    if (dr.Read())
+                    {
+                        estacao.bicicletas = Convert.ToInt32(dr["bikes_disponiveis"]);
+                        estacao.vagas = Convert.ToInt32(dr["vagas_disponiveis"]);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                return e.ToString();
+            }
+
+            return JsonConvert.SerializeObject(estacao);
         }
-
-        // POST: api/Estacao
-        public void Post([FromBody]string value)
-        {
-        }
-
-        // PUT: api/Estacao/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE: api/Estacao/5
-        public void Delete(int id)
-        {
-        }
+               
     }
 }
