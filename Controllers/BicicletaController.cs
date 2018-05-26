@@ -12,10 +12,12 @@ using Newtonsoft.Json;
 
 namespace BikeSJC.Controllers
 {
+    //[RoutePrefix("Bicicleta")]
     public class BicicletaController : ApiController
     {
         Connect sql = new Connect();
         
+       
         
         // liberar bike
         [Route("Bicicleta/solicitar")]
@@ -42,6 +44,37 @@ namespace BikeSJC.Controllers
                 retorno = "Algo deu errado";
             }
             
+            return retorno;
+        }
+
+        // liberar bike no arduino
+        [Route("Bicicleta/ArduinoSolicitarBike")]
+        [HttpGet]
+        public string solicitarBikeArduino(int voucher, int estacao)
+        {
+            string retorno = "";
+            SolBike sol = new SolBike();
+            sol.voucher = voucher;
+            sol.estacao = estacao;
+
+            try
+            {
+                int plano = getPlano(sol.voucher);
+
+                if (plano != 0)
+                {
+                    retorno = liberarBike(sol, plano);
+                }
+                else
+                {
+                    retorno = "Contrate um plano para alugar a bike.";
+                }
+            }
+            catch (Exception)
+            {
+                retorno = "Algo deu errado";
+            }
+
             return retorno;
         }
 
