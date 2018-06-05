@@ -171,7 +171,7 @@ namespace BikeSJC.Controllers
                 while (dr.Read())
                 {
                     BicicletaHistorico bh = new BicicletaHistorico();
-                    bh.dataRetirada = dr["sol_data_retirada"].ToString();
+                    bh.dataRetirada = Convert.ToDateTime(dr["sol_data_retirada"]).ToString("dd/MM/yyyy HH:mm:ss");
                     bh.estacaoE = dr["NomeEstRetirada"].ToString();
                     bh.estacaoR = dr["NomeEstEntregue"].ToString();
                     bh.tempo = dr["tempo"].ToString();

@@ -10,7 +10,7 @@ using MySql.Data.MySqlClient;
 using System.Text;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-
+using System.IO;
 namespace BikeSJC.Controllers
 {
     
@@ -20,7 +20,7 @@ namespace BikeSJC.Controllers
 
         [Route("Estacao/")]
         [HttpGet]
-        public IEnumerable<Estacao> Get()
+        public IEnumerable<Estacao> Get(string loc)
         {
             List<Estacao> listaEstacoes = new List<Estacao>();
 
@@ -29,12 +29,22 @@ namespace BikeSJC.Controllers
             using (MySqlDataReader dr = sql.RetornaQuery(query))
             {
                 while (dr.Read()){
-                    Estacao est = new Estacao();
+                    Estacao est = new Estacao();                    
                     est.est_id = Convert.ToInt32(dr["est_id"]);
                     est.est_nome = dr["est_nome"].ToString();
                     est.est_latitude = Convert.ToDecimal(dr["est_latitude"]);
                     est.est_longitude = Convert.ToDecimal(dr["est_longitude"]);
 
+                    if (loc != null)
+                    {                       
+                        Distancia dist = estacaoDistancia(loc, dr["est_latitude"].ToString(), dr["est_longitude"].ToString());
+                        string dista = dist.rows[0].elements[0].distance.text;
+                        if (dista != null)
+                        {
+                            est.est_distancia = dista;
+                        }                        
+                    }
+                   
                     string info = estacaoInfo(est.est_id);
                     JToken token = JObject.Parse(info);
                     est.est_num_bikes_atual = (int)token.SelectToken("bicicletas");
@@ -82,6 +92,68 @@ namespace BikeSJC.Controllers
 
             return JsonConvert.SerializeObject(estacao);
         }
+
+        
+        public Distancia estacaoDistancia(string local, string lat, string lng ) 
+        {
+            lat = lat.Replace(",", ".");
+            lng = lng.Replace(",", ".");
+
+            Distancia dist = new Distancia();
+            string URL = $"https://maps.googleapis.com/maps/api/distancematrix/json?origins={local}&destinations={lat},{lng}&mode=bicycling&language=pt-BR";
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(URL);
+            request.ContentType = "application/json; charset=utf-8";
+            request.PreAuthenticate = true;
+            HttpWebResponse response = request.GetResponse() as HttpWebResponse;
+            using (Stream responseStream = response.GetResponseStream())
+            {
+                StreamReader reader = new StreamReader(responseStream, Encoding.UTF8);
+
+                var dadosRetorno = reader.ReadToEnd();
+                dist = JsonConvert.DeserializeObject<Distancia>(dadosRetorno);
+            }
+
+
+            return dist;
+        }
+
+        public class Distancia
+        {
+            public List<String> destination_addresses { get; set; }
+            public List<String> origin_addresses { get; set; }
+            public List<Rows> rows { get; set; }
+            public string status { get; set; }
+        }
+
+        public class Rows
+        {
+            public List<Elements> elements { get; set; }
+        }
+        public class Elements
+        {
+            public Dist distance { get; set; }
+            public Duracao duration { get; set; }
+            public string status { get; set; }
+        }
+
+        public class Dist
+        {
+            public string text { get; set; }
+            public string value { get; set; }
+        }
+
+        public class Duracao
+        {
+            public string text { get; set; }
+            public string value { get; set; }
+        }
+        
+        public class Local
+        {
+            public string lat { get; set; }
+            public string lng { get; set; }
+        }
+
                
     }
 }

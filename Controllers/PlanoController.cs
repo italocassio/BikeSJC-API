@@ -29,7 +29,7 @@ namespace BikeSJC.Controllers
 
             using (MySqlDataReader dr = sql.RetornaQuery(query.ToString())) {
                 if(dr.Read()){
-                    plano.pnaDtExpira = Convert.ToDateTime(dr["pna_dthora_expira"]).ToString("dd-MM-yyyy HH:mm:ss");
+                    plano.pnaDtExpira = Convert.ToDateTime(dr["pna_dthora_expira"]).ToString("dd/MM/yyyy HH:mm:ss");
                     plano.pnaVoucher = Convert.ToInt32(dr["pna_voucher"]);
                     plano.pnaId = Convert.ToInt32(dr["pna_id"]);
                 }
@@ -183,7 +183,7 @@ namespace BikeSJC.Controllers
                        
 
             //monta query para atualizar
-            string query = $"UPDATE  creditos set cre_valor={creditoAtual - desconto} where usuarios_usu_id= {usuario}";
+            string query = $"UPDATE  creditos set cre_valor={creditoAtual + desconto} where usuarios_usu_id= {usuario}";
             
             return query;
         }
